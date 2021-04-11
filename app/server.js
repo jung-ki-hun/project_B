@@ -104,7 +104,7 @@ app.get('/dashboard/info3', (req, res) => {``
     query: null,
     msg: 'Succesful'
   }
-  var sql = 'SELECT AIR_database.temperature, AIR_database.humidity FROM AIR_database WHERE obid=1;'//가져오기
+  
   //console.log(sql);
   
   conn.query(sql, function (err, results, field) {

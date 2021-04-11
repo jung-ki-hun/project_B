@@ -1,3 +1,3 @@
 
 const app = express();
-app.router
+app.router();
