@@ -29,7 +29,7 @@ app.get('/dashboard/info1', (req, res) => {
     state: 1,
     query: null,
     msg: 'Succesful'
-  }~
+  }
   var sql = 'SELECT AIR_database.misae FROM AIR_database WHERE obid=1;'//가져오기
   //console.log(sql);
   
