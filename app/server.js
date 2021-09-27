@@ -65,8 +65,8 @@ app.get('/dashboard/info2', (req, res) => {
     pmvalue = 13+"㎍/m³";
     res.end();
   });
-  response.query = pmvalue ==0?"38"+"㎍/m³":pmvalue+"㎍/m³";
-  return res.status(200).json(response);
+ // response.query = pmvalue ==0?"38"+"㎍/m³":pmvalue+"㎍/m³";
+ // return res.status(200).json(response);
 })//환경공단 미세먼지 (pm25 , 경남, 삼방동) 데이터 
 
 app.get('/dashboard/info3', (req, res) => {``
